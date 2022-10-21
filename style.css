@@ -9,16 +9,7 @@
     color: #ffffff;
 }
 
-body {
-    background: #daf0ff;
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    /* JC - ALINHA na HORIZONTAL /
-     AI - ALINHA na VERTICAL o item */
-    justify-content:center;
-    align-items: center;
-}
+
 
 div {
     background: linear-gradient(191.34deg, #17181a -4.95%, #17181a 103.74%);
@@ -29,6 +20,9 @@ div {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(7,1fr);
     padding: 20px;
+    margin-left: 850px;
+    margin-top: 100px;
+    
 }
 
 p {
@@ -82,4 +76,153 @@ button:active {
 .equal {
     grid-row: 6 / 8;
     grid-column: 4 / 5;
+}
+
+p {
+    font-size: 48px;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    text-align: right;
+    display: grid;
+    align-items: end;
+    text-align: end;
+}
+
+button {
+    font-size: 24px;
+    border-radius: 16px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+
+   opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.topo {
+    /* height: 15vh; */
+    /* background-image: linear-gradient(to bottom right, red, yellow, blue, coral, lightsalmon); */
+    background-color: #333333;
+    height: 130px;
+}
+
+h1{
+    cursor: pointer;
+    text-align: center;
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+
+}
+
+h1:hover{
+    color: yellow;
+}
+
+h1::before {
+    content: "🈳";
+}
+
+h1::after {
+    content: "🈵";
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+
+
+.black-button {
+    background: #303136;
+    
+}
+
+.blue-button {
+    background: #005DB2;
+}
+
+.equal-button {
+    background: #1991FF;
+}
+
+.gray-button {
+    background: #616161;
+}
+
+.zero {
+    grid-column: 1 / 3;
+}
+
+.equal {
+    grid-row: 6 / 8;
+    grid-column: 4 / 5;
+}
+
+.display {
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    font-size: 50px;
+    padding: 5;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 30px;
+    
+}
+
+.display:hover{
+    opacity: 0.5;
+    
+}
+
+#display {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+footer {
+
+    position: relative;
+    background-color: #333333;
+    margin-top: 150px;
+
+    
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #333333;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+.container-redes-sociais li img{
+    width: 32px;
+    height: 32px;
+}
+
+.container-redes-sociais li{
+
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+
+}
+
+.link ul li {
+    height: 48;
+    width: 48;
 }

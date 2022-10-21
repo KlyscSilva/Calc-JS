@@ -6,33 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora - JS</title>
     <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
 </head>
 <body>
-    
-    <div>
 
-        <p></p>
-        <button class="gray-button">AC</button>
-        <button class="gray-button">+/-</button>
-        <button class="blue-button">/</button>
-        <button class="blue-button">*</button>
-        <button class="black-button">7</button>
-        <button class="black-button">8</button>
-        <button class="black-button">9</button>
-        <button class="blue-button">-</button>
-        <button class="black-button">4</button>
-        <button class="black-button">5</button>
-        <button class="black-button">6</button>
-        <button class="blue-button">+</button>
-        <button class="black-button">1</button>
-        <button class="black-button">2</button>
-        <button class="black-button">3</button>
-        <button class="equal-button equal">=</button>
-        <button class="black-button zero">0</button>
-        <button class="black-button">.</button>
+    
+
+
+    <header class="topo">
+        <br><br>
+        <h1>Calculadora - Shi Shau</h1>
+    </header>
+
+    <br>
+    <div>
+        
+        
+
+        <p>
+            <input disabled id="display" class="display" placeholder="0" style="text-align: end;">
+            
+        </p>
+        <button class="gray-button" value="AC" onclick="inserirDadosDisplay(this)">AC</button>
+        <button class="gray-button" value="+/-" onclick="inserirDadosDisplay(this)">+/-</button>
+        <button class="blue-button" value="/" onclick="inserirDadosDisplay(this)">/</button>
+        <button class="blue-button" value="*" onclick="inserirDadosDisplay(this)">*</button>
+        <button class="black-button" value="7" onclick="inserirDadosDisplay(this)">7</button>
+        <button class="black-button" value="8" onclick="inserirDadosDisplay(this)">8</button>
+        <button class="black-button" value="9" onclick="inserirDadosDisplay(this)">9</button>
+        <button class="blue-button"value="-" onclick="inserirDadosDisplay(this)">-</button>
+        <button class="black-button" value="4" onclick="inserirDadosDisplay(this)">4</button>
+        <button class="black-button"value="5" onclick="inserirDadosDisplay(this)">5</button>
+        <button class="black-button"value="6" onclick="inserirDadosDisplay(this)">6</button>
+        <button class="blue-button"value="+" onclick="inserirDadosDisplay(this)">+</button>
+        <button class="black-button"value="1" onclick="inserirDadosDisplay(this)">1</button>
+        <button class="black-button"value="2" onclick="inserirDadosDisplay(this)">2</button>
+        <button class="black-button"value="3" onclick="inserirDadosDisplay(this)">3</button>
+        <button class="equal-button equal"value="=" onclick="resultadoExpressao(this)">=</button>
+        <button class="black-button zero" value="0" onclick="inserirDadosDisplay(this)">0</button>
+        <button class="black-button"value="." onclick="inserirDadosDisplay(this)">.</button>
 
 
     </div>
+
+    <footer>
+        <ul class="container-redes-sociais">
+
+            <li class="link">
+                <a href="http://www.linkedin.com/in/matheus-silva-9b19b9179" target="_blank" rel="noopener noreferrer"><img src="./img/icons8-linkedin.svg" alt="linkd"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="img/instacon.svg" alt="instaicone"/></a>
+              </li>
+            
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="img/4202110facebooklogosocialsocialmedia-115707_115594.svg" alt="iconefacebook"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img src="img/Twitter_icon-icons.com_66803.svg" alt="iconetwitter"></a>
+            </li>
+            <li>
+                <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer"><img src="img/Youtube_icon-icons.com_66802.svg" alt="youtubeicon"></a>
+            </li>
+        </ul>
+        
+    </footer>
 
 </body>
 </html>
