@@ -11,9 +11,6 @@
 </head>
 <body>
 
-    
-
-
     <header class="topo">
         <br><br>
         <h1>Calculadora - Shi Shau</h1>
@@ -26,7 +23,7 @@
 
         <p>
             <input disabled id="display" class="display" placeholder="0" style="text-align: end;">
-            
+            <input disabled id="display-previa" class="display2" style="text-align: end;">
         </p>
         <button class="gray-button" value="AC" onclick="inserirDadosDisplay(this)">AC</button>
         <button class="gray-button" value="+/-" onclick="inserirDadosDisplay(this)">+/-</button>
@@ -43,7 +40,7 @@
         <button class="black-button"value="1" onclick="inserirDadosDisplay(this)">1</button>
         <button class="black-button"value="2" onclick="inserirDadosDisplay(this)">2</button>
         <button class="black-button"value="3" onclick="inserirDadosDisplay(this)">3</button>
-        <button class="equal-button equal"value="=" onclick="resultadoExpressao(this)">=</button>
+        <button class="equal-button equal"value="=" onclick="resultadoIgual(this)">=</button>
         <button class="black-button zero" value="0" onclick="inserirDadosDisplay(this)">0</button>
         <button class="black-button"value="." onclick="inserirDadosDisplay(this)">.</button>
 
