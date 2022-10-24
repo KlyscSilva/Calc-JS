@@ -1,5 +1,6 @@
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap');
 
 *{
@@ -28,8 +29,7 @@ div {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(7,1fr);
     padding: 20px;
-    margin-left: 600px;
-    margin-top: 10px;
+    margin: 10px auto 0 auto;
     
 }
 
@@ -249,7 +249,11 @@ footer {
 }
 
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 700px) { 
+
+    * {
+        box-sizing: border-box;
+    }
 
   .topo {
 
@@ -264,15 +268,13 @@ footer {
 
     background: linear-gradient(191.34deg, #17181a -10.95%, #17181a 103.74%);
     border-radius: 39px;
-    width: 400px;
-    height: 77px;
+    width: 350px;
+    height: 550px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(7,1fr);
     padding: 7px;
-    margin-left: 3px;
-    margin-top: 50px;
-    
+    margin: 80px auto 10px auto;
   }
 
     h1 {
@@ -291,6 +293,9 @@ footer {
         margin: 10px;
         display: fixed;
     }
-    
+
+    #display {
+        background: none;
+    }
     
 }
