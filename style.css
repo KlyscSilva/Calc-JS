@@ -256,11 +256,7 @@ footer {
 
   .topo {
 
-    height: 75px;
-    width: 411px;
-    margin: 0;
-    padding: 0;
-    position: fixed;
+    display: none;
 
   }
   
