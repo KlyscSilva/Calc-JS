@@ -269,7 +269,7 @@ footer {
     background: linear-gradient(191.34deg, #17181a -10.95%, #17181a 103.74%);
     border-radius: 39px;
     width: 350px;
-    height: 550px;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(7,1fr);
@@ -299,6 +299,6 @@ footer {
     }
     
     footer {
-        position: fixed;
+        display: none;
     }
 }
